@@ -1,3 +1,3 @@
-# Trong project này học những khóa học Free
+# In this project, I am learning from free courses.
 
-**Những khóa học trong này là mình đã tải trên mạng về. Mình lưu nó trong folder Tặng Các Khóa Học Lập Trình**
+**The courses within this project are those I have downloaded from the internet. I have stored them in the folder "Free Programming Courses."**
