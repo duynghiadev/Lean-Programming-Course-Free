@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding:0; 
+}
+
+.motkhoi {
+	width: 400px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+ 	float:left;
+	margin:10px;
+}
+.motkhoi .layeranh {
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index: 1; 	
+
+	transition: 2s; 
+}
+.motkhoi:hover .layeranh {
+	top:-800px;
+}
+

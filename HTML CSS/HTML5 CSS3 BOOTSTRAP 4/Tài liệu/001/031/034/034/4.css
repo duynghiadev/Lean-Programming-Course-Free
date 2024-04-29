@@ -1,0 +1,85 @@
+*{margin: 0; padding: 0}
+
+.nho {
+	background:#eee;
+	color:#414141;
+	padding:7px;
+	transition: 0.4s;
+	width:30px;
+	height:30px;
+	box-sizing:border-box;
+}
+.nho:last-child {
+	background:orange;
+}
+.nho:hover {
+	color:white;
+	background:orange;
+}
+
+.tren {
+	width: 270px;
+	height:325px;
+	position: relative;
+
+}
+.tren .layer1 {
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 1;
+}
+.tren .nen {
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 2;
+	width:270px;
+	height:323px;
+	background-color:rgba(255,255,255,0.4);
+	background-image: -webkit-linear-gradient(45deg,rgba(247, 198, 38, 0.55) 15%,rgba(246, 140, 47, 0.59) 40%,rgba(229, 18, 125, 0.26) 85%);
+	border-bottom: 2px solid orange;
+	opacity:0;
+	transition: 0.4s; 
+}
+.tren:hover .nen{
+opacity:1;
+}
+
+
+.tren .cacicon {
+	position: absolute;
+	top:50%;
+	left:0px;
+	z-index: 3;
+	width:270px;
+	height:30px;
+	text-align: center;
+	margin-top:-15px;
+
+	transition: 0.2s;
+	transform: scale(0); 
+
+}
+.tren:hover .cacicon {
+	transform: scale(1); 
+	transition-delay:0.4s;
+}
+.duoi {
+
+	text-align: center;
+	padding:10px;
+	font-family: 'segoe ui light';
+	color:gray; 
+}
+.motsp {
+	width: 270px; 
+}
+.nhieusp {
+	background:black;
+	display: flex;
+	width:850px;
+	margin:auto; 
+	flex-wrap: wrap; 
+	justify-content: space-between;
+}

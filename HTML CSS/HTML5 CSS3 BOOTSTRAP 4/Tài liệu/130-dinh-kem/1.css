@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0;} 
+
+.topheader {
+	background-color:#353c3e;
+	height:80px;
+}
+.hotline {
+	color:#959595;
+	font-size:13px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top:35px;
+}
+
+
+.bottomheader {
+	background-color:#40494c;
+	height: 62px;
+	border-bottom:3px solid #040505;
+}
+
+.bottomheader .trongsuot {
+	background-color:transparent;
+}
+.bottomheader  ul.navbar-nav li.nav-item  a.nav-link:after {
+	content:"/";
+}
+.bottomheader  ul.navbar-nav li.nav-item  a.nav-link{
+	text-transform:uppercase;
+	font-size: 13px;
+	color:#717b7e;
+	font-family: 'Montserrat', sans-serif;
+	padding:13px 20px ;
+}
+.bottomheader  ul.navbar-nav li.nav-item  a.nav-link:hover {
+	 color:white;
+}

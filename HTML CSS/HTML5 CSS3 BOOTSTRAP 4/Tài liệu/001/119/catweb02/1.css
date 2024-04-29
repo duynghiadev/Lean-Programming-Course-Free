@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0;} 
+
+@font-face {
+	src:url(fonts/Lato-Regular.ttf);
+	font-family: lato-r; 
+}
+@font-face {
+	src:url(fonts/Lato-Light.ttf);
+	font-family: lato-l; 
+}
+@font-face {
+	src:url(fonts/Lato-Bold.ttf);
+	font-family: lato-b; 
+}
+
+
+/*css cho phan topheader*/
+.topheader{
+	border-top:#0787d4 5px solid;
+	background:#21c2f8;
+	padding-top: 13px;
+}
+.iconsocial a {
+	color:white;
+	display: inline-block;
+	padding:0 8px;
+}
+.nut .btn-outline-secondary, .nut .btn-secondary {
+	font-family:lato-b;
+	font-size:14px;
+	color:white;
+	line-height: 19px;
+	padding:8px 13px ;
+	border-radius:1px;
+	border:1px solid white; 
+	margin-top:-3px;
+	margin-bottom:10px;
+}
+.nut  .btn-secondary {
+	color:#a1b1bc;
+}
