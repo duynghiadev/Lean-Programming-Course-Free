@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <div class="container wrapper">
+      <div id="top">
+        <h1>Chào mừng đến với bài giảng về CSS</h1>
+        <p>Sử dụng menu để lựa chọn các Stylesheets khác nhau</p>
+      </div>
+      <div class="wrapper">
+        <div id="menubar">
+          <ul id="menulist">
+            <li class="menuitem" onclick="reStyle(0)">Stylesheet 1</li>
+            <li class="menuitem" onclick="reStyle(1)">Stylesheet 2</li>
+            <li class="menuitem" onclick="reStyle(2)">Stylesheet 3</li>
+            <li class="menuitem" onclick="reStyle(3)">Stylesheet 4</li>
+            <li class="menuitem" onclick="noStyles()">No Stylesheet</li>
+          </ul>
+        </div>
+        <div id="main">
+          <h1>Cùng cấu trúc trang nhưng sử dụng Stylesheets khác</h1>
+          <p>
+            Đây là một trang HTML sử dụng các stylesheets khác nhau để thay đổi
+            bố cục và màu sắc của trang. Bạn có thể thay đổi bố cục của trang
+            này bằng cách chọn stylesheets khác nhau trên menu, hoặc bằng cách
+            chọn một trong các liên kết sau đây:<br />
+            <a href="#" onclick="reStyle(0);return false">Stylesheet1</a>,
+            <a href="#" onclick="reStyle(1);return false">Stylesheet2</a>,
+            <a href="#" onclick="reStyle(2);return false">Stylesheet3</a>,
+            <a href="#" onclick="reStyle(3);return false">Stylesheet4</a>.
+          </p>
+          <h2>Không sử dụng Styles</h2>
+          <p>
+            Trang này sử dụng các thẻ DIV để thiết lập các khối nội dung. Hãy
+            nhấn vào đây để hiển thị trang không sử dụng bất kỳ một style
+            nào:<br /><a href="#" onclick="noStyles();return false"
+              >No Stylesheet</a
+            >.
+          </p>
+        </div>
+        <div id="sidebar">
+          <h3>Side-Bar</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat.
+          </p>
+        </div>
+      </div>
+      <div id="bottom">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+        volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+        molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+        eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+        zzril delenit augue duis dolore te feugait nulla facilisi.
+      </div>
+    </div>
+  </body>
+</html>
