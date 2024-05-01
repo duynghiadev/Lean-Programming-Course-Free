@@ -11,4 +11,5 @@ add_executable(Cu_tr�c_d_liu_v�_gii_thut
         "Phần 2 Giải thuật đệ qui/Video08/DeQuyDaTuyen/DeQuyDaTuyen.cpp"
         "Phần 2 Giải thuật đệ qui/Video09/DeQuyLong/DeQuyLong.cpp"
         "Phần 2 Giải thuật đệ qui/Video10/DeQuyTuongHo/DeQuyTuongHo.cpp"
-        "Phần 2 Giải thuật đệ qui/Video11/ChuyenDoiCoSo10Qua2DeQuy/ChuyenDoiCoSo10Qua2DeQuy.cpp")
+        "Phần 2 Giải thuật đệ qui/Video11/ChuyenDoiCoSo10Qua2DeQuy/ChuyenDoiCoSo10Qua2DeQuy.cpp"
+        "Phần 2 Giải thuật đệ qui/Video12/RenLuyenTimToHop/RenLuyenTimToHop.cpp")
