@@ -8,4 +8,5 @@ add_executable(Cu_tr�c_d_liu_v�_gii_thut
         "Phần 2 Giải thuật đệ qui/Video06/DeQuyDuoi/Tail_Recursion.cpp"
         "Phần 2 Giải thuật đệ qui/Video06/DeQuyDuoi/Tail_Recursion.cpp"
         "Phần 2 Giải thuật đệ qui/Video07/DeQuyNhiPhan/DeQuyNhiPhan.cpp"
-        "Phần 2 Giải thuật đệ qui/Video08/DeQuyDaTuyen/DeQuyDaTuyen.cpp")
+        "Phần 2 Giải thuật đệ qui/Video08/DeQuyDaTuyen/DeQuyDaTuyen.cpp"
+        "Phần 2 Giải thuật đệ qui/Video09/DeQuyLong/DeQuyLong.cpp")
