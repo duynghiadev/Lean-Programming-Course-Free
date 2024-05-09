@@ -2,6 +2,7 @@
 
 function cloneObj(obj) {
   if (typeof obj !== 'object' || obj === null) {
+    console.log('This is not object');
     return obj;
   }
 
@@ -26,5 +27,12 @@ const originalObj = {
   },
 };
 
+const originalObj1 = 'duynghiadev';
+
 const resultClonedObj = cloneObj(originalObj);
 console.log('resultClonedObj:', resultClonedObj);
+
+console.log('='.repeat(40));
+
+const resultClonedObj1 = cloneObj(originalObj1);
+console.log('resultClonedObj1:', resultClonedObj1);
