@@ -1,8 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\DELL\Desktop\Code Lai\Lean Programming Course Free\Cấu trúc dữ liệu và giải thuật" -B "C:\Users\DELL\Desktop\Code Lai\Lean Programming Course Free\Cấu trúc dữ liệu và giải thuật\cmake-build-debug"
-CMake Error at CMakeLists.txt:6 (add_executable):
-  The target name "Cu_tr�c_d_liu_v�_gii_thut" is reserved or not valid
-  for certain CMake features, such as generator expressions, and may result
-  in undefined behavior.
-
-
--- Configuring incomplete, errors occurred!
